@@ -1,0 +1,360 @@
+body {
+    
+    background-color: #000000;
+    padding-bottom: 50px;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}
+
+
+.fade-in-visible {
+    opacity: 1;
+}
+
+header {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+nav ul.left-side {
+    position: absolute;
+    top: 4%;
+    left: 10px;
+    list-style: none;
+    display: flex;
+    gap: 17px;
+    margin: 0;
+}
+
+nav ul.left-side li {
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul.right-side {
+    position: absolute;
+    top: 4%;
+    right: 10px;
+    left: 65%;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+}
+
+nav ul.right-side li {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul.right-side li:hover {
+    color: #696969;
+}
+
+.myportofolio1, .myportofolio2 {
+    color: #5594f1;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.myportofolio2 {
+    color: #5594f1;
+}
+
+.myportofolio1 {
+    color: white;
+}
+
+.homepgFEDh1 {
+    margin: 0;
+    font-size: 4em;
+    position: absolute;
+    color: #5594f1;
+    padding: 20px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.homepgFEDp1, .homepgFEDp2 {
+    margin: 0;
+    font-size: 1.5rem;
+    position: absolute;
+    color: #fff;
+    padding: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.homepgFEDp1 {
+    top: 46%;
+}
+
+.homepgFEDp2 {
+    top: 49%;
+}
+
+
+.down-arrow {
+    position: absolute;
+    top: 58%; 
+    left: 50%;
+    transform: translateX(-50%);
+    animation: shake 1s infinite;
+    fill: #ffffff; 
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(-50%) translateY(0);
+    }
+    25% {
+        transform: translateX(-50%) translateY(-5px);
+    }
+    50% {
+        transform: translateX(-50%) translateY(0);
+    }
+    75% {
+        transform: translateX(-50%) translateY(5px);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 90px;
+}
+
+.aboutmepgh1 {
+    margin: 0;
+    font-size: 4em;
+    position: absolute;
+    color: #5594f1;
+    padding: 20px;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.aboutmepgtext {
+    font-size: 4em;
+    width: 60%;
+    line-height: 1.5;
+    padding-right: 30px;
+    color: #fff;
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.aboutmepgp1 {
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    color: #fff;
+    position: absolute;
+    top: 147%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.coding-logo {
+    font-size: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5594f1;
+    animation: shake 1s infinite;
+    position: absolute;
+    right: 200px;
+    top: 135%;
+}
+
+.projectspgh1 {
+    margin: 0;
+    font-size: 4em;
+    position: absolute;
+    color: #5594f1;
+    padding: 20px;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project1 {
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    color: #fff;
+    position: absolute;
+    top: 250%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.project2 {
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    color: #fff;
+    position: absolute;
+    top: 250%;
+    left: 42%;
+    transform: translateY(-50%);
+}
+
+.project3 {
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    color: #fff;
+    position: absolute;
+    top: 250%;
+    left: 73%;
+    transform: translateY(-50%);
+}
+
+.shoppingwebsite {
+    animation: shake 1s infinite;
+    position: absolute;
+    right: 1344px;
+    top: 220%;
+    size: 60cm;
+}
+
+.portofoliowebsite {
+    animation: shake 1s infinite;
+    position: absolute;
+    right: 720px;
+    top: 220%;
+    size: 60cm;
+}
+
+.paymentwebsite {
+    animation: shake 1s infinite;
+    position: absolute;
+    right: 190px;
+    top: 220%;
+    size: 60cm;
+}
+
+.contactmepgh1 {
+    margin: 0;
+    font-size: 4em;
+    position: absolute;
+    color: #5594f1;
+    padding: 20px;
+    top: 300%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.contactmepgp1 {
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 60px;
+    color: #fff;
+    position: absolute;
+    top: 337%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.contactmepgp2 {
+    font-size: 2rem;
+    width: 40%;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-bottom: 200px;
+    color: #67a0f7;
+    position: absolute;
+    top: 380%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.formatspgh1 {
+    margin: 0;
+    font-size: 4em;
+    display: flex;
+    position: absolute;
+    color: #5594f1;
+    padding: 20px;
+    top: 300%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.container1 {
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    border-color: #5594f1;
+    width: 420px;
+    height: auto;
+    position: absolute;
+    top: 315%;
+    left: 67%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 128, 255, 0.8), 0 0 20px 10px rgba(0, 128, 255, 0.6), 0 0 30px 15px rgba(0, 128, 255, 0.4);
+}
+
+.container2 {
+    text-align: center;
+    color: white;
+    background-color: #000000;
+    border-color: #5594f1;
+    width: 420px;
+    height: auto;
+    position: absolute;
+    top: 350%;
+    left: 67%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 128, 255, 0.8), 0 0 20px 10px rgba(0, 128, 255, 0.6), 0 0 30px 15px rgba(0, 128, 255, 0.4);
+}
+
+.container1 h1, .container2 h1, .container1 p, .container2 p {
+    font-size: 1.7em;
+    margin: 0;
+    padding: 10px;
+}
+
+.extra-space {
+    height: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding-bottom: 100px;
+}
